@@ -1,0 +1,85 @@
+p, h1, h2, h3, img {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+
+header {
+    background-color: #32343E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+header h1 {
+    background-color: #92CCCD;
+    width: auto;
+    padding-left: 10%;
+    padding-right: 10px;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    font-size: 3vw;
+}
+
+.navigation {
+    color: #92CCCD;
+    list-style: none;
+    margin-right: 10%;
+    font-size: 2vw;
+}
+
+section {
+    background-color: #EDEEF7;
+    display: flex;
+    padding-top: 3%;
+}
+
+section p {
+    margin-left: 2%;
+}
+
+.section-title {
+    color: #6786A2;
+    min-width: 22vw;
+    /* padding-left: 12%; */
+    padding-right: 2%;
+    border-right: 3px solid #6786A2;
+    font-size: 3vw;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+
+.works-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.works-list li {
+    width: 30vw;
+    height: 20vh;
+    border: 3px solid #92CCCD;
+    list-style: none;
+    margin: 1%;
+    /* position: relative; */
+}
+
+.works-list li div {
+    width: 25%;
+    background-color: #92CCCD;
+    top: 35%;
+    position: absolute;
+}
+
